@@ -1,0 +1,71 @@
+.btn{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    width: 200px;
+    
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: #B0B6BA;
+    border:none; 
+    width: 200px;
+    align-items: center;
+
+}
+
+.btn-primary {
+    background-color: #B0B6BA;
+    border:none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.btn-primary:hover{
+    background-color: #E2E6EA;
+}
+
+.dropdown-menu{
+    border: none;
+    box-shadow: 0 3px 3px gray;
+    color:#343A40;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    width: 200px
+}
+
+.dropdown-item{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#343A40;
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+}
+
+.dropdown-item:hover{
+    background-color:#5D59D1;
+    color: #fff;
+}
+
+.dropdown-item:active{
+    background-color: #4744A6;
+}
+
+.touched button::after{
+    display: none !important;
+}
+
+.iconcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    margin-right: 5px;
+}

@@ -1,0 +1,88 @@
+.header{
+    height: 68px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: content-box;
+    
+}
+
+.firstitem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 5%;
+}
+
+.logo{
+    height: 60px;
+    position: relative;
+    padding-right: 5%;
+}
+
+.actiontitle{
+    color:#27282E;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    margin:0;
+}
+
+.emailtitle{
+    color: #B0B6BA;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    background-color: transparent;
+    width: 145px;
+    border-radius: 4px;
+    height: max-content;
+    border: none;
+    
+}
+
+.emailtitle:hover{
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #B0B6BA;
+}
+
+.emailtitle:focus-visible{
+    outline-color: #4744A6;
+}
+
+.undo{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    padding-right: 25px;
+    position:relative;
+    left: 10%;
+}
+
+.undoicon{
+    height: 20px;
+    fill: #E2E6EA;
+}
+
+.undo:hover .undoicon{
+    fill: #5D59D1;
+}
+
+.profilebutton{
+    height: auto;
+    border: none;
+    background-color: transparent;
+
+}
+
+.profileicon{
+    height: 30px;
+    position: relative;
+    right: 110%;
+}
